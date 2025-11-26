@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f7e0e7; /* Um rosa suave */
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+h1 {
+    color: #e91e63; /* Cor de destaque (rosa mais forte) */
+    margin-bottom: 15px;
+}
+
+p {
+    color: #333;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+#botaoInterativo {
+    background-color: #ff5722; /* Laranja/Vermelho vibrante */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#botaoInterativo:hover {
+    background-color: #e64a19;
+}
+
+#botaoInterativo:active {
+    transform: scale(0.98);
+}
